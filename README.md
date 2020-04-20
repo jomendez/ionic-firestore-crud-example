@@ -44,7 +44,26 @@ Enter the name of the project and click on Add Firebase to your web app.
 
 ![firebase configuration](https://user-images.githubusercontent.com/8228498/79777791-c6b44700-8305-11ea-8816-746c87bd5081.png)
 
-We are going to use this data later, this will allow us to connect to firebase. 
+We are going to use this data to configure our project, this will allow us to connect to firebase. 
+
+Insert the config variable on the app.module.ts for that lets add the firebase dependency.
+
+```javascript
+...
+import * as firebase from 'firebase';
+ 
+const config = {
+  apiKey: "<your key>",
+  authDomain: "<your key>",
+  databaseURL: "<your key>",
+  projectId: "<your key>",
+  storageBucket: "<your key>",
+  messagingSenderId: "<your key>"
+};
+firebase.initializeApp(config);
+ 
+...
+```
 
 Next step is to configure Cloud Firestore, follow the following steps in the image, and start in test mode for now, to keep it simple. 
 

@@ -9,13 +9,14 @@ import { HomePage } from '../pages/home/home';
 import * as firebase from 'firebase';
 
 const config = {
-  apiKey: "AIzaSyDipIomkPWn5SdtfwwlI_X56wwRohqo7SM",
-  authDomain: "crud-5bc68.firebaseapp.com",
-  databaseURL: "https://crud-5bc68.firebaseio.com",
-  projectId: "crud-5bc68",
-  storageBucket: "crud-5bc68.appspot.com",
-  messagingSenderId: "55546537638"
+  apiKey: "<your key>",
+  authDomain: "<your key>",
+  databaseURL: "<your key>",
+  projectId: "<your key>",
+  storageBucket: "<your key>",
+  messagingSenderId: "<your key>"
 };
+
 firebase.initializeApp(config);
 
 @NgModule({

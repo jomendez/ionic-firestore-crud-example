@@ -5,12 +5,30 @@ Simple CRUD (Create, Read, Update and Delete) using ionic 3 and Cloud firestore
 
 In this project we are going to create the most simplest ionic CRUD (Create, Read, Update and Delete) using Cloud firestore. 
 
+### You can find the full tutorial [here](http://www.jomendez.com/2018/03/09/ionic-crud-application-cloud-firestore/) 
+
 At the end of this tutorial you\'ll be able to: 
 
 - Setup a firebase account. 
 - Configure firestore database permissions. 
 - Create an ionic app using ionic cli (command line tool). 
 - Create, Read, Update and Delete to a firestore database from an ionic app. 
+
+## Run the ionic CRUD project.
+
+First, install [Node.js](http://nodejs.org/). Then, install the latest Cordova and Ionic command-line tools in your terminal. Follow the [Android ](https://cordova.apache.org/docs/en/latest/guide/platforms/android) and [iOS ](https://cordova.apache.org/docs/en/latest/guide/platforms/ios) platform guides to install required tools for development. For more info go here: [https://ionicframework.com/getting-started](https://ionicframework.com/getting-started). 
+
+```
+npm install -g cordova ionic
+```
+
+Now lets create the ionic app 
+
+```bash
+git clone https://github.com/jomendez/ionic-firestore-crud-example.git
+cd ionic-firestore-crud-example
+ionic serve
+```
 
 ## What is cloud firestore?
 
@@ -46,21 +64,4 @@ In this example you can see that the firestore data model is based on collection
 ![firestore structure](https://user-images.githubusercontent.com/8228498/79781673-d20a7100-830b-11ea-8ade-b3af2b2f96e8.png)
 
 for more details you can visit here [https://firebase.google.com/docs/firestore/data-model](https://firebase.google.com/docs/firestore/data-model). 
-
-## Run the ionic CRUD project.
-
-First, install [Node.js](http://nodejs.org/). Then, install the latest Cordova and Ionic command-line tools in your terminal. Follow the [Android ](https://cordova.apache.org/docs/en/latest/guide/platforms/android) and [iOS ](https://cordova.apache.org/docs/en/latest/guide/platforms/ios) platform guides to install required tools for development. For more info go here: [https://ionicframework.com/getting-started](https://ionicframework.com/getting-started). 
-
-```
-npm install -g cordova ionic
-```
-
-Now lets create the ionic app 
-
-```bash
-git clone https://github.com/jomendez/ionic-firestore-crud-example.git
-cd ionic-firestore-crud-example
-ionic serve
-```
-
 

@@ -27,6 +27,7 @@ Now lets create the ionic app
 ```bash
 git clone https://github.com/jomendez/ionic-firestore-crud-example.git
 cd ionic-firestore-crud-example
+npm install
 ionic serve
 ```
 

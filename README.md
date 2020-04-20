@@ -7,7 +7,7 @@ In this project we are going to create the most simplest ionic CRUD (Create, Rea
 
 ### You can find the full tutorial [here](http://www.jomendez.com/2018/03/09/ionic-crud-application-cloud-firestore/) 
 
-At the end of this tutorial you\'ll be able to: 
+At the end of the tutorial above you\'ll be able to: 
 
 - Setup a firebase account. 
 - Configure firestore database permissions. 

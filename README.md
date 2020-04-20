@@ -14,7 +14,7 @@ At the end of this tutorial you\'ll be able to:
 
 ## What is cloud firestore?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QcsAb2RR52c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![firestore youtube](http://img.youtube.com/vi/QcsAb2RR52c/0.jpg)](http://www.youtube.com/watch?v=QcsAb2RR52c "")
 
 ## Lets set up a firebase account.
 
